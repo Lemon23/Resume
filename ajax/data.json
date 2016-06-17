@@ -1,0 +1,35 @@
+{
+	"about_info":[
+		"喜欢前端技术，一切充满画面感和无限性",
+		"对一起充满好奇心，什么都想玩什么都想看",
+		"前端领域技术的更新换代让我无法停下脚步",
+		"“完美”是我的追求，凌乱的代码会毁掉前端带来的美感与享受"
+	],
+	"html":[
+		"深刻理解Web标准",
+		"熟练运用html标签",
+		"熟悉xml及xhtml标记语言",
+		"掌握html5如SVG等新特性"
+	],
+	"css":[
+		"熟练运用css及css3新属性",
+		"掌握bootstrap框架的实现"
+	],
+	"javaScript":[
+		"掌握jQuery库",
+		"掌握ajax的运作原理及json数据结构",
+		"注重JavaScript性能优化",
+		"正在不断学习原生JavaScript，了解js闭包等"
+	],
+	"react":[
+		"掌握Reactjs",
+		"配合webpack打包开发",
+		"正在分析源代码中。。。"
+	],
+	"contact_info":[
+		"I believe ",
+		"As long as you want to start, what time is not too late ",
+		"The worst result just is late bloomers in life ",
+		"Have Dream, Have Future"
+	]
+}
