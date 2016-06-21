@@ -619,6 +619,7 @@ aside b {
 }
 #contact_form {
 	display: none;
+	font-size: 15px;
 }
 #contact_form form {
 	margin: 10px auto;
@@ -647,10 +648,11 @@ aside b {
 	margin: 0 auto;
 	width: 449px;
 	height: 50px;
-	line-height: 16px;
+	line-height: 20px;
 	border: 1px solid #FFB6C1;
 	border-radius: 3px;
 	outline: none;
+	resize: none;
 	-webkit-transition: all 0.30s ease-in-out;
 	transition: all 0.30s ease-in-out;
 }
