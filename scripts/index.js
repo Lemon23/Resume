@@ -7,7 +7,6 @@ $(function(){
 			for(var i in data.about_info){
 				$("#about_info").append("<p>"+data.about_info[i]+"</p>");
 			}
-			$("#expertise_info").append("<p>"+data.expertise_info+"</p>");
 			$(".expertise_int").append("<ul></ul>");
 			for(var i in data.html){
 				$("#expertise_int1 ul").append("<li>"+data.html[i]+"</li>");
@@ -21,9 +20,23 @@ $(function(){
 			for(var i in data.react){
 				$("#expertise_int4 ul").append("<li>"+data.react[i]+"</li>");
 			}
+			$(".demo_detail_int").append("<ul></ul>");
+			for(var i in data.ecommerce) {
+				$("#demo_detail_int1 ul").append("<li>"+data.ecommerce[i]+"</li>");
+			}
+			for(var i in data.weather) {
+				$("#demo_detail_int2 ul").append("<li>"+data.weather[i]+"</li>");
+			}
+			for(var i in data.ife) {
+				$("#demo_detail_int3 ul").append("<li>"+data.ife[i]+"</li>");
+			}
+			for(var i in data.hnews) {
+				$("#demo_detail_int4 ul").append("<li>"+data.hnews[i]+"</li>");
+			}
 			for(var i in data.contact_info) {
 				$("#contact_info").append("<p>"+data.contact_info[i]+"</p>");
 			}
+
 		}
 	});
     $('#dowebok').fullpage({
@@ -130,7 +143,7 @@ $(function(){
 		$(this).find("b").fadeToggle(200,"easeInOutCubic");
 	})
 // 技能明细切换
-	$(".expertise_icon").click(function(){
+	$(".expertise_icon").mouseover(function(){
 		$(".expertise_int").each(function(){
 			if($(this).is(":visible")){
 				$(this).slideUp(200);
@@ -145,6 +158,28 @@ $(function(){
 			$(this).siblings(".expertise_flag").removeClass("expertise_flag_scale");
 		}
 	})
+// demo明细切换
+	$("#demo_box_content1").hover(function() {
+		$("#demo_detail_int1").slideDown(400);
+	}, function() {
+		$("#demo_detail_int1").slideUp(200);
+	})
+	$("#demo_box_content2").hover(function() {
+		$("#demo_detail_int2").slideDown(400);
+	}, function() {
+		$("#demo_detail_int2").slideUp(200);
+	})
+	$("#demo_box_content3").hover(function() {
+		$("#demo_detail_int3").slideDown(400);
+	}, function() {
+		$("#demo_detail_int3").slideUp(200);
+	})
+	$("#demo_box_content4").hover(function() {
+		$("#demo_detail_int4").slideDown(400);
+	}, function() {
+		$("#demo_detail_int4").slideUp(200);
+	})
+	
 // 点击留言
 	$("#contact_message1").click(function(){
 		$(this).fadeOut(200,function(){
