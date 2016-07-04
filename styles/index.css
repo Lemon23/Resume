@@ -152,6 +152,9 @@ aside b {
 	width: 1000px;
 	height: auto;
 }
+.mail {
+	text-decoration: none;
+}
 /* home */
 #home{
 	display: none;
@@ -239,24 +242,11 @@ aside b {
 	opacity: 0.5;	
 }
 .about_list {
-	float: left;
-	margin-left: 150px;
-	cursor: pointer;
+	margin: 0 150px;
 }
-#about_list1 {
-	margin-left: 130px;
-}
-.about_list_cn {
-	padding-top: 25px;
-	line-height: 30px;
-	position: relative;
-	color: #70b;
-	font-weight: 800;
-}
-.about_list_cn p {
-	padding-top: 25px;
-	text-align: right;
-	font-size: 16px;
+.about_list p {
+	color: #74F;
+	font-size: 15px;
 }
 #about_info {
 	color: #888;
@@ -648,58 +638,10 @@ aside b {
 	display: none;
 	font-size: 15px;
 }
-#contact_form form {
-	margin: 10px auto;
-	border: 2px dashed #FFB6C1;
-	width: 500px;
-}
-#contact_form ul {
-	margin: 10px auto;
-}
-#contact_form input {
-	display: block;
-	margin: 0 auto 10px;
-	width: 450px;
-	line-height: 25px;
-	border: 1px solid #FFB6C1;
-	border-radius: 3px;
-	outline: none;
-	-webkit-transition: all 0.30s ease-in-out;
-	transition: all 0.30s ease-in-out;
-}
-#contact_form input:focus {
-	box-shadow: 0 0 5px rgba(255,105,180, 1);
-}
-#contact textarea {
-	display: block;
-	margin: 0 auto;
-	width: 449px;
-	height: 50px;
-	line-height: 20px;
-	border: 1px solid #FFB6C1;
-	border-radius: 3px;
-	outline: none;
-	resize: none;
-	-webkit-transition: all 0.30s ease-in-out;
-	transition: all 0.30s ease-in-out;
-}
-#contact_form textarea:focus {
-	box-shadow: 0 0 5px rgba(255,105,180, 1);
-}
-#contact_submit {
-	display: block;
-	width: 254px;
-	line-height: 30px;
-	background: rgba(255,182,193, 1);
-	color: #fff;
-	border-radius: 3px;
-	-webkit-transition: background linear 0.30s;
-	transition: background linear 0.30s;
+#contact_form p {
+	font-size: 20px;
 	text-align: center;
-	margin: 10px auto 0; 
-}
-#contact_submit:hover {
-	background: rgba(255,105,180, 1);
+	margin: 10px auto;
 }
 .contact_message {
 	float: left;

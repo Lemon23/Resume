@@ -2,6 +2,7 @@ $(function(){
 	$.ajax({
 		type: "GET",
 		url: "ajax/data.json",
+		async: true,
 		dataType: "json",
 		success: function(data){
 			for(var i in data.about_info){
@@ -186,13 +187,7 @@ $(function(){
 			$("#contact_form").fadeIn(200);
 		})
 	});
-// 提交表单
-	$("#contact_submit").click(function(){
-		$.get("ajax/get.php");
-		$("#contact_form").fadeOut(200,function(){
-			$("#contact_message2").fadeIn(200);
-		});
-	});
+
 //内容适应居中
 	$(window).resize(function(){
 		var size = $(function(){
