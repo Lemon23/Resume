@@ -196,7 +196,7 @@ aside b {
 	width: 150px;
 	height: 150px;
 	border: 2px solid #fbd;
-	border-radius: 75px;
+	border-radius: 50%;
 	position: absolute;
 	-webkit-transition: box-shadow 2s;
 	transition: box-shadow 2s;
